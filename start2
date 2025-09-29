@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # ========== Color Setup ==========
 green="\e[38;5;87m"
 red="\e[38;5;196m"
@@ -138,3 +137,4 @@ else
   exit 1
 
 fi
+

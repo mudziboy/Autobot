@@ -49,7 +49,7 @@ setup_bot() {
     cd /root/BotVPN2 && git pull
   else
     echo -e "${green}Clone repo bot...${reset}"
-    git clone https://github.com/mudziboy/Autobot.git/root/BotVPN2
+    git clone https://github.com/mudziboy/Autobot.git /root/BotVPN2
   fi
 
   echo -e "${yellow}Convert semua script ke format Unix (LF)...${reset}"
@@ -138,6 +138,7 @@ else
   exit 1
 
 fi
+
 
 
 

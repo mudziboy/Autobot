@@ -1,13 +1,13 @@
 {
-  "BOT_TOKEN": "8049229960:AAEMdgvMLGBk3jBEwArvp7iGT3EHiMY0JFs",
-  "USER_ID": "8118068872",
-  "GROUP_ID": "-1002993444041",
+  "BOT_TOKEN": "isibotoken",
+  "USER_ID": "isiid",
+  "GROUP_ID": "idgrup",
   "PORT": 50123,
-  "NAMA_STORE": "Rahmarie VPN",
+  "NAMA_STORE": "SAGISTORE",
   "DATA_QRIS": "#opsional jika pakai qris",
   "MERCHANT_ID": "#opsional jika pakai qris",
   "API_KEY": "#opsional jika pakai qris",
-  "VIOLET_MEDIA_API_KEY": "nXvrPnyWVU2LsyHT9ukSeRLdEQLJOyK7",
-  "VIOLET_MEDIA_SECRET_KEY": "ElamsHVRxMn5kkM2kOtCtS2NwB8GACyBpdzqQdd7kqmEv5cHH6Bg",
+  "VIOLET_MEDIA_API_KEY": "",
+  "VIOLET_MEDIA_SECRET_KEY": "",
   "VIOLET_MEDIA_CALLBACK_URL": "https://rahmarie.my.id/callback-violet"
 }

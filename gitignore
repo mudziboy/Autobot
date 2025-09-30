@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / Secrets
+.env
+.env.local
+.vars.json
+
+# Logs
+logs
+*.log
+*.out
+*.pid
+*.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional build directories
+dist/
+build/
+coverage/

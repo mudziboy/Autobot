@@ -99,8 +99,6 @@ cron.schedule('0 4 * * *', () => {
       }
     }
   });
-});
-
 // ✅ RESET KOMISI BULANAN OTOMATIS TIAP TANGGAL 1 JAM 01:00
 cron.schedule('0 1 1 * *', () => {
   db.serialize(() => {

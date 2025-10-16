@@ -4,7 +4,4 @@
   "GROUP_ID": "-1002993444041",     // id grup telegram (opsional)
   "PORT": "50123",
   "NAMA_STORE": "SagiStore",
-  "VIOLET_API_URL": "https://violetmediapay.com/api/live",
-  "VIOLET_APIKEY": "nXvrPnyWVU2LsyHT9ukSeRLdEQLJOyK7",
-  "VIOLET_SECRET": "ElamsHVRxMn5kkM2kOtCtS2NwB8GACyBpdzqQdd7kqmEv5cHH6Bg"
 }

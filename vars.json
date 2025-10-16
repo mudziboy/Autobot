@@ -1,11 +1,10 @@
 {
-  "BOT_TOKEN": "8494066951:AAF8LH4Gq1Q_ctDl86IrXLXXnUk_3oO7zJY",
-  "USER_ID": "8372210994",
-  "GROUP_ID": "-1002993444041",
-  "PORT": 50123,
-  "NAMA_STORE": "SAGISTORE",
-
-  "VIOLET_API_KEY": "nXvrPnyWVU2LsyHT9ukSeRLdEQLJOyK7",
-  "VIOLET_SECRET_KEY": "ElamsHVRxMn5kkM2kOtCtS2NwB8GACyBpdzqQdd7kqmEv5cHH6Bg",
-  "VIOLET_CALLBACK_URL": "https://rahmarie.my.id/callback"
+  "BOT_TOKEN": "8494066951:AAFF-hDQE3s8DZoa--TTI8B0uDR0vQlRASY",
+  "USER_ID": "8372210994",           // contoh admin id (atau array)
+  "GROUP_ID": "-1002993444041",     // id grup telegram (opsional)
+  "PORT": "50123",
+  "NAMA_STORE": "SagiStore",
+  "VIOLET_API_URL": "https://violetmediapay.com/api/live",
+  "VIOLET_APIKEY": "nXvrPnyWVU2LsyHT9ukSeRLdEQLJOyK7",
+  "VIOLET_SECRET": "ElamsHVRxMn5kkM2kOtCtS2NwB8GACyBpdzqQdd7kqmEv5cHH6Bg"
 }

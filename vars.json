@@ -1,9 +1,9 @@
 {
-  "BOT_TOKEN": "8494066951:AAGFuElpiOt_9MF7KjyiKAO4F7Y1R7yilic",
-  "USER_ID": "8372210994",
-  "GROUP_ID": "-1002993444041",
-  "VIOLET_API_KEY": "nXvrPnyWVU2LsyHT9ukSeRLdEQLJOyK7",
-  "VIOLET_SECRET_KEY": "ElamsHVRxMn5kkM2kOtCtS2NwB8GACyBpdzqQdd7kqmEv5cHH6Bg",
-  "VIOLET_CALLBACK_URL": "https://sagivpn.my.id/callback.php",
-  "VIOLET_API_PRODUCTION": "https://violetmediapay.com/api/live/"
+  "BOT_TOKEN": " ",
+  "USER_ID": " ",
+  "GROUP_ID": " ",
+  "VIOLET_API_KEY": " ",
+  "VIOLET_SECRET_KEY": " ",
+  "VIOLET_CALLBACK_URL": " ",
+  "VIOLET_API_PRODUCTION": " "
 }

@@ -1,11 +1,9 @@
 {
-  "BOT_TOKEN": "8494066951:AAH358Ud5tYa5pg-2wDF5_l34CCcdCwYQIc",
+  "BOT_TOKEN": "8494066951:AAGFuElpiOt_9MF7KjyiKAO4F7Y1R7yilic",
   "USER_ID": "8372210994",
   "GROUP_ID": "-1002993444041",
-  "PORT": 50123,
-  "NAMA_STORE": "SagiStore",
- "DOMAIN": "sagivpn.my.id",
-  "VIOLET_API_URL": "https://violetmediapay.com/api/live",
-  "VIOLET_APIKEY": "nXvrPnyWVU2LsyHT9ukSeRLdEQLJOyK7",
-  "VIOLET_SECRET": "ElamsHVRxMn5kkM2kOtCtS2NwB8GACyBpdzqQdd7kqmEv5cHH6Bg"
+  "VIOLET_API_KEY": "nXvrPnyWVU2LsyHT9ukSeRLdEQLJOyK7",
+  "VIOLET_SECRET_KEY": "ElamsHVRxMn5kkM2kOtCtS2NwB8GACyBpdzqQdd7kqmEv5cHH6Bg",
+  "VIOLET_CALLBACK_URL": "https://sagivpn.my.id/callback.php",
+  "VIOLET_API_PRODUCTION": "https://violetmediapay.com/api/live/"
 }

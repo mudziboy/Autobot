@@ -109,12 +109,6 @@ EOF
     exit 1
   fi
 
-  cat >/etc/cron.d/server_sellvpn <<EOF
-SHELL=/bin/sh
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-*/30 * * * * root curl -s -F chat_id="$adminid" -F document=@"/root/BotVPN2/sellvpn.db" "https://api.telegram.org/bot$token/sendDocument" >/dev/null 2>&1
-EOF
-
 
   # 🚀 Start PM2 bot
     
@@ -141,4 +135,5 @@ if [[ ${1} == "sellvpn" ]]; then
 else
   echo -e "${red}Gunakan perintah: ${yellow}start sellvpn${neutral}"
   exit 1
+
 fi

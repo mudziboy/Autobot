@@ -43,7 +43,6 @@ bot.use(session());
 
 const execAsync = util.promisify(exec);
 const dns = require('dns').promises;
-const fs = require('fs').promises; // <-- TAMBAHKAN INI (untuk operasi async fs)
 const { URLSearchParams } = require('url'); // <-- TAMBAHKAN INI
 
 
@@ -6545,3 +6544,4 @@ app.listen(PORT, () => {
   // 🚀 Mulai bot dengan reconnect logic
   startBot();
 });
+

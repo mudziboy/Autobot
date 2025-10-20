@@ -271,25 +271,26 @@ try {
 } catch (callbackErr) {
   log(`💥 Error callback sukses untuk ${ref}: ${callbackErr.message}`);
 }
-// === END CALLBACK LOGIC VIOLETMEDIA ===
-
-        return res.json({ status: true });
-      } else if (status === "kadaluarsa" || status === "expired") {
-        log(`⚠️ Callback kadaluarsa — transaksi ${ref} ditandai expired.`);
-        return res.json({ status: true });
-      } else {
-        log(`ℹ️ Callback status tidak dikenal (${status}) untuk ref ${ref}.`);
-        return res.json({ status: true });
-      }
+try {
+    if (isSignatureValid && isIpAllowed) {
+        if (status === "success") {
+            log(`✅ Callback sukses — transaksi ${ref} diverifikasi.`);
+            return res.json({ status: true });
+        } else if (status === "kadaluarsa" || status === "expired") {
+            log(`⚠️ Callback kadaluarsa — transaksi ${ref} ditandai expired.`);
+            return res.json({ status: true });
+        } else {
+            log(`ℹ️ Callback status tidak dikenal (${status}) untuk ref ${ref}.`);
+            return res.json({ status: true });
+        }
     } else {
-      log(`❌ Callback invalid — signature atau IP tidak valid.`);
-      return res.status(400).json({ status: false });
+        log(`❌ Callback invalid — signature atau IP tidak valid.`);
+        return res.status(400).json({ status: false });
     }
-  } catch (err) {
+} catch (err) {
     log(`💥 Error callback: ${err.message}`);
     return res.status(500).json({ status: false, error: err.message });
-  }
-});
+}
 
 // 📂 Load Modules
 
